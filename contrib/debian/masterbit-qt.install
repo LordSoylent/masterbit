@@ -1,0 +1,6 @@
+usr/local/bin/masterbit-qt usr/bin
+share/pixmaps/masterbit32.xpm usr/share/pixmaps
+share/pixmaps/masterbit16.xpm usr/share/pixmaps
+share/pixmaps/masterbit128.png usr/share/pixmaps
+debian/masterbit-qt.desktop usr/share/applications
+debian/masterbit-qt.protocol usr/share/kde4/services/

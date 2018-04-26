@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/masterbit_bg.qm</file>
+        <file alias="de">locale/masterbit_de.qm</file>
+        <file alias="en">locale/masterbit_en.qm</file>
+        <file alias="es">locale/masterbit_es.qm</file>
+        <file alias="fi">locale/masterbit_fi.qm</file>
+        <file alias="fr">locale/masterbit_fr.qm</file>
+        <file alias="it">locale/masterbit_it.qm</file>
+        <file alias="ja">locale/masterbit_ja.qm</file>
+        <file alias="pl">locale/masterbit_pl.qm</file>
+        <file alias="pt">locale/masterbit_pt.qm</file>
+        <file alias="ru">locale/masterbit_ru.qm</file>
+        <file alias="sk">locale/masterbit_sk.qm</file>
+        <file alias="sv">locale/masterbit_sv.qm</file>
+        <file alias="vi">locale/masterbit_vi.qm</file>
+        <file alias="zh_CN">locale/masterbit_zh_CN.qm</file>
+        <file alias="zh_TW">locale/masterbit_zh_TW.qm</file>
+    </qresource>
+</RCC>

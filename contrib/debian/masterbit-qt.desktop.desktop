@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MasterBit
+Comment=MasterBit P2P Cryptocurrency
+Exec=masterbit-qt %u
+Terminal=false
+Type=Application
+Icon=masterbit128
+MimeType=x-scheme-handler/masterbit;
+Categories=Office;Finance;
+Name[en_US]=masterbit-qt.desktop

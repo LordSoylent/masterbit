@@ -1,0 +1,33 @@
+# /etc/conf.d/masterbitd: config file for /etc/init.d/masterbitd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/masterbitcore/masterbit.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/masterbitd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/masterbitd.pid"
+
+# Where to write masterbitd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/masterbitd"
+
+# User and group to own masterbitd process
+#BITCOIND_USER="masterbitcore"
+#BITCOIND_GROUP="masterbitcore"
+
+# Path to masterbitd executable
+#BITCOIND_BIN="/usr/bin/masterbitd"
+
+# Nice value to run masterbitd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60
